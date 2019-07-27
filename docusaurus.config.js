@@ -6,73 +6,73 @@
  */
 
 module.exports = {
-  title: 'Docusaurus no style',
-  tagline: 'Docusaurus 2 theme with minimum style',
-  url: 'https://wgao19.github.io',
-  baseUrl: '/',
-  favicon: 'img/diplodocus.png',
-  organizationName: 'wgao19', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-no-style', // Usually your repo name.
+  title: "Docusaurus no style",
+  tagline: "Docusaurus 2 theme with minimum style",
+  url: "https://wgao19.github.io",
+  baseUrl: "/",
+  favicon: "img/diplodocus.png",
+  organizationName: "wgao19", // Usually your GitHub org/user name.
+  projectName: "docusaurus-no-style", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Docusaurus No Style',
+      title: "Docusaurus No Style",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "My Site Logo",
+        src: "img/diplodocus.png"
       },
       links: [
-        {to: 'docs/doc1', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: "docs/doc1", label: "Docs", position: "left" },
+        { to: "blog", label: "Blog", position: "left" },
         {
-          href: 'https://github.com/wgao19/docusaurus-template-no-style',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+          href: "https://github.com/wgao19/docusaurus-template-no-style",
+          label: "GitHub",
+          position: "right"
+        }
+      ]
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Docs',
-              to: 'docs/doc1',
-            },
-          ],
+              label: "Docs",
+              to: "docs/doc1"
+            }
+          ]
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus"
+            }
+          ]
         },
         {
-          title: 'Social',
+          title: "Social",
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-          ],
-        },
+              label: "Blog",
+              to: "blog"
+            }
+          ]
+        }
       ],
-      copyright: `Built with love and Docusaurus 2`,
-    },
+      copyright: `Built with love and Docusaurus 2`
+    }
   },
-  themes: ['@wgao19/docusaurus-theme-no-style'],
+  themes: ["@wgao19/docusaurus-theme-no-style"],
   plugins: [
     [
-      '@docusaurus/plugin-content-docs-legacy',
+      "@docusaurus/plugin-content-docs-legacy",
       {
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
+        sidebarPath: require.resolve("./sidebars.js")
+      }
     ],
-    ['@docusaurus/plugin-content-blog'],
-    ['@docusaurus/plugin-content-pages'],
-  ],
+    ["@docusaurus/plugin-content-blog"],
+    ["@docusaurus/plugin-content-pages"]
+  ]
 };
