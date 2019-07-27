@@ -64,7 +64,7 @@ module.exports = {
       copyright: `Built with love and Docusaurus 2`,
     },
   },
-  themes: ['docusaurus-theme-no-style'],
+  themes: ['@wgao19/docusaurus-theme-no-style'],
   plugins: [
     [
       '@docusaurus/plugin-content-docs-legacy',
