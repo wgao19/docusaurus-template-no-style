@@ -24,7 +24,7 @@ module.exports = {
         {to: 'docs/doc1', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/wgao19/docusaurus-no-style',
+          href: 'https://github.com/wgao19/docusaurus-template-no-style',
           label: 'GitHub',
           position: 'right',
         },
