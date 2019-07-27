@@ -21,6 +21,8 @@ $ yarn start
 
 Depending on how fine-grained you wish to overwrite the styles, you have a few options:
 
+### Modifying basic (layout) styling
+
 To modify the styling without changing the DOM structure of individual components, you may swizzle the `Layout` component and update the CSS there:
 
 ```shell
@@ -30,6 +32,8 @@ $ yarn swizzle @wgao19/docusaurus-theme-no-style Layout
 This will copy the `Layout` component to your site's `src` directory. Restart your dev server, and then the site will be using the component in your code.
 
 Most of the styles provided in this theme is inside the `Layout` component.
+
+### Modifying component styling
 
 If you need to modify the DOM structure and / or styling for individual component, swizzle the corresponding component with the same command.
 

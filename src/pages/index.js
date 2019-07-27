@@ -5,38 +5,41 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
-import Link from '@docusaurus/Link';
-import Layout from '@theme/Layout';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from "react";
+import Link from "@docusaurus/Link";
+import Layout from "@theme/Layout";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Description will go into a meta tag in <head />"
+    >
       <main>
         <section>
           <img src="/img/diplodocus.png" />
           <p>Photo credit</p>
           <div>
-            Icons made by{' '}
+            Icons made by{" "}
             <a
               href="https://www.flaticon.com/authors/darius-dan"
-              title="Darius Dan">
+              title="Darius Dan"
+            >
               Darius Dan
-            </a>{' '}
-            from{' '}
+            </a>{" "}
+            from{" "}
             <a href="https://www.flaticon.com/" title="Flaticon">
               www.flaticon.com
-            </a>{' '}
-            is licensed by{' '}
+            </a>{" "}
+            is licensed by{" "}
             <a
               href="http://creativecommons.org/licenses/by/3.0/"
               title="Creative Commons BY 3.0"
-              target="_blank">
+              target="_blank"
+            >
               CC 3.0 BY
             </a>
           </div>
@@ -44,10 +47,10 @@ function Home() {
         <article>
           <h1>Docusaurus Theme No Style</h1>
           <p>
-            This theme is a trim down from{' '}
+            This theme is a trim down from{" "}
             <a href="https://github.com/facebook/docusaurus/tree/master/packages/docusaurus-theme-classic">
               @docusaurus/theme-classic
-            </a>{' '}
+            </a>{" "}
             of <a href="http://docusaurus-2.netlify.com/">Docusaurus 2</a> to
             contain only <em>opinionated minimum styles</em>:
           </p>
@@ -63,15 +66,16 @@ function Home() {
             <li>accessory sections have paddings with a fixed value 1rem</li>
           </ul>
           <h2 id="overwriting-styles-for-this-theme">
-            Overwriting styles for this theme
+            Overwriting styles for this template
           </h2>
           <p>
             Depending on how fine-grained you wish to overwrite the styles, you
             have a few options:
           </p>
+          <h3>Modifying basic (layout) styling</h3>
           <p>
             To modify the styling without changing the DOM structure of
-            individual components, you may swizzle the <code>Layout</code>{' '}
+            individual components, you may swizzle the <code>Layout</code>{" "}
             component and update the CSS there:
           </p>
           <pre>
@@ -80,25 +84,26 @@ function Home() {
             </code>
           </pre>
           <p>
-            This will copy the <code>Layout</code> component to your site's{' '}
+            This will copy the <code>Layout</code> component to your site's{" "}
             <code>src</code> directory. Restart your dev server, and then the
             site will be using the component in your code.
           </p>
           <p>
-            Most of the styles provided in this theme is inside the{' '}
+            Most of the styles provided in this theme is inside the{" "}
             <code>Layout</code> component.
           </p>
+          <h3>Modifying component styling</h3>
           <p>
             If you need to modify the DOM structure and / or styling for
             individual component, swizzle the corresponding component with the
             same command.
           </p>
           <p>
-            To see the list of components provided by this theme, refer{' '}
+            To see the list of components provided by this theme, refer{" "}
             <a href="#">here</a>.
           </p>
           <h3>
-            <Link to="/docs/doc1">Now start reading</Link>
+            <Link to="/docs/doc1">Now start building</Link>
           </h3>
         </article>
       </main>
