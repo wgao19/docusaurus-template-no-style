@@ -1,0 +1,25 @@
+footer {
+  text-align: center;
+  background: #222;
+  color: #aaa;
+  width: 100vw;
+}
+
+footer section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  color: #aaa;
+}
+
+.linkSection:not(:first-child) {
+  margin-left: 4rem;
+}
+
+.copyright {
+  padding: 0.5em 0;
+  justify-content: center;
+}
