@@ -21,7 +21,6 @@ function Home() {
       <main>
         <section>
           <img src="/img/diplodocus.png" />
-          <p>Photo credit</p>
           <div>
             Icons made by{" "}
             <a
@@ -45,14 +44,18 @@ function Home() {
           </div>
         </section>
         <article>
-          <h1>Docusaurus Theme No Style</h1>
+          <h1>Docusaurus no style</h1>
           <p>
-            This theme is a trim down from{" "}
-            <a href="https://github.com/facebook/docusaurus/tree/master/packages/docusaurus-theme-classic">
-              @docusaurus/theme-classic
+            This site is bootstrapped from{" "}
+            <a href="https://github.com/wgao19/docusaurus-template-no-style">
+              @wgao19/docusaurus-template-no-style
             </a>{" "}
-            of <a href="http://docusaurus-2.netlify.com/">Docusaurus 2</a> to
-            contain only <em>opinionated minimum styles</em>:
+            using{" "}
+            <a href="https://github.com/wgao19/docusaurus-theme-no-style">
+              @wgao19/docusaurus-theme-no-style
+            </a>
+            , a trim-down from Docusaurus 2's classic theme that contains only{" "}
+            <em>opinionated minimum styles</em>:
           </p>
           <ul>
             <li>
@@ -60,47 +63,82 @@ function Home() {
               class names used
             </li>
             <li>
-              docs and blog page layout with grid with 2 side sections and 1
-              main in middle
+              accessory sections have paddings with a fixed value of{" "}
+              <code>1rem</code>
             </li>
-            <li>accessory sections have paddings with a fixed value 1rem</li>
           </ul>
-          <h2 id="overwriting-styles-for-this-theme">
-            Overwriting styles for this template
-          </h2>
+          <p>It also comes with minimum mobile display support:</p>
+
+          <ul>
+            <li>
+              one break point at <code>980px</code>
+            </li>
+            <li>
+              wide — docs and blog page layout with grid with 2 side sections
+              and 1 main in middle
+            </li>
+            <li>narrow — fluid all content</li>
+          </ul>
+
+          <h2>Template no style</h2>
           <p>
-            Depending on how fine-grained you wish to overwrite the styles, you
-            have a few options:
-          </p>
-          <h3>Modifying basic (layout) styling</h3>
-          <p>
-            To modify the styling without changing the DOM structure of
-            individual components, you may swizzle the <code>Layout</code>{" "}
-            component and update the CSS there:
+            Docusaurus 2's
+            {` `}
+            <code>init</code> command allows you to easily create a Docusaurus 2
+            site from a template repo:
           </p>
           <pre>
-            <code class="language-shell">
-              $ yarn swizzle @wgao19/docusaurus-theme-no-style Layout
+            <code>
+              $ npx @docusaurus/init@next init [your-project-name]
+              https://github.com/wgao19/docusaurus-template-no-style.git{" "}
             </code>
           </pre>
+          <p>I've also included two customizations in this template:</p>
+          <ul>
+            <li>
+              Font using{" "}
+              <a href="https://fonts.google.com/specimen/IBM+Plex+Sans">
+                IBM Plex Sans
+              </a>{" "}
+              specified with a custom CSS
+            </li>
+            <li>
+              Swizzling out <code>Footer</code> that fits my eyes
+            </li>
+          </ul>
+
+          <h2>Theme no style</h2>
+
           <p>
-            This will copy the <code>Layout</code> component to your site's{" "}
-            <code>src</code> directory. Restart your dev server, and then the
-            site will be using the component in your code.
+            The default Docusaurus 2 sites are generated from{" "}
+            <a href="https://github.com/facebook/docusaurus/tree/master/packages/docusaurus-theme-classic">
+              classic theme
+            </a>{" "}
+            which includes a very beautiful styling that we believe will satisfy
+            the need of most documenting sites. All Facebook Open Source
+            projects are using the default theme and you should probably use it
+            too.
           </p>
           <p>
-            Most of the styles provided in this theme is inside the{" "}
-            <code>Layout</code> component.
-          </p>
-          <h3>Modifying component styling</h3>
-          <p>
-            If you need to modify the DOM structure and / or styling for
-            individual component, swizzle the corresponding component with the
-            same command.
+            The motivation for me to create the{" "}
+            <a href="https://github.com/wgao19/docusaurus-theme-no-style">
+              theme no style
+            </a>{" "}
+            is that I want to create many more sites each with its own custom
+            styling, as well as to learn more about Docusaurus 2.
           </p>
           <p>
-            To see the list of components provided by this theme, refer{" "}
-            <a href="#">here</a>.
+            <a href="https://docusaurus.io">Docusaurus</a> is a static site
+            generator with a focus on documentation sites. It is currently
+            maintained by <a href="https://twitter.com/yangshunz">Yangshun</a>,{" "}
+            <a href="https://twitter.com/endiliey">Endiliey</a>, and{" "}
+            <a href="htts://twitter.com/wgao19">myself</a>. We are now rapidly
+            iterating on{" "}
+            <a href="https://docusaurus-2.netlify.com">Docusaurus 2</a>. It has
+            been the most performant static site generator I've ever worked
+            with. And we hope to deliver the best developer experience for the
+            doc sites of future open source projects, as well as to help build
+            the best doc sites for future users.
           </p>
           <h3>
             <Link to="/docs/doc1">Now start building</Link>
