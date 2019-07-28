@@ -69,7 +69,7 @@ Most of the styles provided in this theme is inside the `Layout` component.
 
 If you need to modify the DOM structure and / or styling for individual component, swizzle the corresponding component with the same command.
 
-For list of components to swizzle, refer to the [theme](https://github.com/wgao19/docusaurus-theme-no-style/tree/master/src/theme).
+For list of components to swizzle, refer to the [theme](https://github.com/wgao19/docusaurus-theme-no-style/tree/master/packages/docusaurus-theme-no-style/src/theme).
 
 ## Credits
 
