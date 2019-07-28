@@ -68,6 +68,7 @@ module.exports = {
     [
       "@wgao19/docusaurus-theme-no-style",
       {
+        // path relative to your project root
         customCss: require.resolve("./src/css/custom.css")
       }
     ]
