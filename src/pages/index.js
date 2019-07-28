@@ -14,7 +14,7 @@ function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout>
+    <Layout description="A Docusaurus 2 template with opinionated minimum style for easy customization.">
       <main>
         <section>
           <img src="/img/diplodocus.png" />
