@@ -9,16 +9,16 @@ The motivation of creating this template:
 
 ## About this template
 
+### 💚 [>> DEMO >>](https://docusaurus-template-no-style.netlify.com/) 💚
+
 This template uses [@wgao19/docusaurus-theme-no-style](https://github.com/wgao19/docusaurus-theme-no-style) nearly directly.
 
 With two customizations for demonstration purposes:
 
 - Adds a custom CSS to use a customized font [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)
-- Swizzled the `Footer` component (see below to see how)
+- Swizzles the `Footer` component (see below to see how)
 
 Check out [Docusaurus 2](http://docusaurus-2.netlify.com/) docs for more information on developing with D2.
-
-### 💚 [>> DEMO >>](https://docusaurus-template-no-style.netlify.com/) 💚
 
 ## Using this template
 
