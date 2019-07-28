@@ -64,7 +64,14 @@ module.exports = {
       copyright: `Built with love and Docusaurus 2`
     }
   },
-  themes: ["@wgao19/docusaurus-theme-no-style"],
+  themes: [
+    [
+      "@wgao19/docusaurus-theme-no-style",
+      {
+        customCss: require.resolve("./src/css/custom.css")
+      }
+    ]
+  ],
   plugins: [
     [
       "@docusaurus/plugin-content-docs-legacy",
