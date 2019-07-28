@@ -8,12 +8,13 @@
 module.exports = {
   title: "Docusaurus no style",
   tagline: "Docusaurus 2 theme with minimum style",
-  url: "https://wgao19.github.io",
+  url: "https://docusaurus-template-no-style.netlify.com",
   baseUrl: "/",
   favicon: "img/diplodocus.png",
   organizationName: "wgao19", // Usually your GitHub org/user name.
   projectName: "docusaurus-no-style", // Usually your repo name.
   themeConfig: {
+    image: "img/diplodocus.png",
     navbar: {
       title: "Docusaurus No Style",
       logo: {
