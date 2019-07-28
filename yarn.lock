@@ -1105,10 +1105,10 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@wgao19/docusaurus-theme-no-style@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wgao19/docusaurus-theme-no-style/-/docusaurus-theme-no-style-0.0.3.tgz#cf21c5005fd3637a1db0265e37e189ec4fececff"
-  integrity sha512-B6wjZ9OY+okbWx9VRb2sWc+nfsTYrsLfCjRwCfLJi/5+C2otqLNQEkIoW6haOTkdSFtyKcQaWJz4AkF09VUGHA==
+"@wgao19/docusaurus-theme-no-style@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wgao19/docusaurus-theme-no-style/-/docusaurus-theme-no-style-0.0.4.tgz#f93588babfa5e693aa8ddbbfd4d9d8ec1f5a6704"
+  integrity sha512-Qklg/I/uYNtgKzvT+Vc0lBtDUd1QrsX9aStgnD8T5hMyxK6Ru4SM/LsIG74ii6DmL+x64gFTjh7QbuVr6sdjJQ==
   dependencies:
     "@mdx-js/mdx" "^1.1.0"
     "@mdx-js/react" "^1.0.27"
